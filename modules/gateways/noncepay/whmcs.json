@@ -1,0 +1,22 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-gateways",
+    "name": "noncepay",
+    "license": "MIT",
+    "category": "payments",
+    "description": {
+        "name": "NoncePay",
+        "tagline": "Non-custodial crypto payments: USDT, USDC, BTC, ETH, SOL and more, forwarded to your own wallets.",
+        "long": "Adds a Pay with crypto button to your invoices. The customer pays on the NoncePay hosted page and the invoice is marked paid once the payment is confirmed. No account, no API key."
+    },
+    "support": {
+        "homepage": "https://noncepay.app/",
+        "docs_url": "https://noncepay.app/docs/guides/whmcs/"
+    },
+    "authors": [
+        {
+            "name": "NoncePay",
+            "homepage": "https://noncepay.app/"
+        }
+    ]
+}
