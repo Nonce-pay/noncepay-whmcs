@@ -1,0 +1,23 @@
+{
+    "name": "noncepay/noncepay-whmcs",
+    "description": "NoncePay crypto payment gateway module for WHMCS",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NoncePay\\Whmcs\\": "modules/gateways/noncepay/lib/",
+            "NoncePay\\Whmcs\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        }
+    }
+}
