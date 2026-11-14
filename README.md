@@ -9,8 +9,8 @@ payment with a signed callback.
 
 ## Requirements
 
-- WHMCS 8.x
-- PHP 7.4 to 8.3 with the `curl`, `json` and `openssl` extensions (`bcmath` is used when present, not required)
+- WHMCS 8.x or 9.x (9.0, 9.1)
+- PHP 7.4 to 8.4 with the `curl`, `json` and `openssl` extensions (`bcmath` is used when present, not required)
 - Your WHMCS site reachable over the internet, so NoncePay can call
   `https://your-whmcs/modules/gateways/callback/noncepay.php`
 

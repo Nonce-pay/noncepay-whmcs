@@ -7,7 +7,7 @@ namespace NoncePay\Whmcs;
  */
 final class Api
 {
-    const VERSION = '0.1.0';
+    const VERSION = '0.1.1';
 
     /** @var string */
     private $base;

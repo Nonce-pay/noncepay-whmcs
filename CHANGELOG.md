@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- WHMCS 9.0 and 9.1 supported, and PHP 8.4 (WHMCS 9.1).
+
 ## 0.1.0
 
 First release.
